@@ -15,6 +15,5 @@ provider "google" {
   project = "terraform-project-390414"
   region = "europe-west2"
   zone = "europe-west2-c"
-  credentials = "./terraform-project-390414-cd2ddabd5354.json"
 
 }
