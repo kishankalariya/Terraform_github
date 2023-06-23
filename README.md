@@ -14,6 +14,8 @@ Step 4:
 > Store code in version control system (Github)
     > for that connect you local rep to git by using SSH key (need to do set-up)
     >create .gitignore file to avoid push credential file.
+        > add some code form terraform official code for .gitignore (for sercurty prospect)
 
 Step 5:
 > Github Action - Create Work flow 
+    create bucket strore -  tfstate file 
