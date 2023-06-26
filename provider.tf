@@ -4,7 +4,7 @@
 terraform {
   required_providers {
     google = {
-      source = "hashicorp/google"
+      source  = "hashicorp/google"
       version = "4.69.1"
     }
   }
@@ -13,7 +13,7 @@ terraform {
 provider "google" {
 
   project = "terraform-project-390414"
-  region = "europe-west2"
-  zone = "europe-west2-c"
+  region  = "europe-west2"
+  zone    = "europe-west2-c"
 
 }
