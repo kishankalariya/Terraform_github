@@ -13,7 +13,7 @@ resource "google_compute_instance" "terraform-test-v3" {
 
     initialize_params {
       image = "projects/debian-cloud/global/images/debian-11-bullseye-v20230615"
-      size  = 11
+      size  = 10
       type  = "pd-balanced"
     }
 
