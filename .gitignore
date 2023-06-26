@@ -5,13 +5,15 @@ terraform-project-390414-cd2ddabd5354.json
 # Local .terraform directories
 **/.terraform/*
 
-.terraform\providers
+.terraform/providers
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
 
 terraform.tfstate
+
+
 
 # Crash log files
 crash.log
