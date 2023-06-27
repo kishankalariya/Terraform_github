@@ -15,5 +15,5 @@ provider "google" {
   project = "terraform-project-390414"
   region  = "europe-west2"
   zone    = "europe-west2-c"
-
+  
 }
